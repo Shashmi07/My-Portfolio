@@ -22,10 +22,10 @@ const About = () => {
                  transition={{duration: 1}}
                 className='w-full lg:w-1/2'>
                     <div className='flex justify-center lg:justify-start'>
-                        <p className='my-2 max-w-xl py-6 font-light tracking-tighter'>
-                            {ABOUT_TEXT_1}
-
+                        <p className='my-2 max-w-xl py-6 font-light tracking-tighter text-justify'>
+                        {ABOUT_TEXT_1}
                         </p>
+
                     </div>
                 </motion.div>
         </div>

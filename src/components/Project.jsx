@@ -1,6 +1,7 @@
 import { PROJECTS } from "../constants"
 import { motion } from "framer-motion"
 
+import { hr } from "framer-motion/client";
 const Project = () => {
   return (
     <div className="border-b border-neutral-900 pb-4">
@@ -38,6 +39,16 @@ const Project = () => {
                             {technology}
                         </span>
                     ))}
+                     {project.link && (
+                        <a
+                        href={project.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="mt-4 inline-block text-sm text-purple-400 underline hover:text-purple-600"
+                        >
+                        View Project
+                        </a>
+                    )}
                 </motion.div>
             </div>
         ))}</div>
