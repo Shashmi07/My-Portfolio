@@ -12,32 +12,48 @@ export const ABOUT_TEXT_1 = `I am a dedicated and adaptable front-end developer 
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Python Calculator",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A simple and functional calculator built using Python, supporting basic arithmetic operations such as addition, subtraction, multiplication, and division.",
+    technologies: ["Python", "Tkinter"]
+
+    
   },
   {
-    title: "Task Management App",
+    title: "uni-web-home",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "A responsive university website homepage built with HTML and CSS, featuring a modern design, course details, campus locations, and student testimonials.",
+    technologies: ["HTML", "CSS"],
   },
   {
     title: "Portfolio Website",
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    technologies: ["HTML", "CSS", "React"],
   },
   {
-    title: "Blogging Platform",
+    title: "LMS-Java-",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "A Java-based Library Management System that allows users to view books, borrow/return books, add new books, and track borrowed books with timestamps. It manages book availability and provides an easy-to-use interface for basic library operations.",
+    technologies: ["Java"],
+  },
+  {
+    title: "LMS-Python-",
+    image: project5,
+    description:
+      "A simple and efficient Library Management System that allows users to add, borrow, return, and view books. It tracks book availability and borrowing status using JSON for storage.",
+    technologies: ["Python"],
+  },
+  {
+    title: "LMS-Python-",
+    image: project5,
+    description:
+      "A simple and efficient Library Management System that allows users to add, borrow, return, and view books. It tracks book availability and borrowing status using JSON for storage.",
+    technologies: ["Python"],
   },
 ];
 
