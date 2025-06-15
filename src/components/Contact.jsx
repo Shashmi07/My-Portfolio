@@ -3,6 +3,7 @@ import { motion } from "framer-motion"
 
 const Contact = () => {
   return (
+    <section id="contact" className="container mx-auto px-8 py-20">
     <div className="border-b border-neutral-900 pb-20">
         <motion.h1
         whileInView={{opacity:1,y:0}}
@@ -23,6 +24,7 @@ const Contact = () => {
             <a href="#" className="border-b">{CONTACT.email}</a>
         </div>
     </div>
+    </section>
   )
 }
 

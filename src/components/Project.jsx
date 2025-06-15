@@ -4,6 +4,7 @@ import { motion } from "framer-motion"
 import { hr } from "framer-motion/client";
 const Project = () => {
   return (
+    <section id="project" className="container mx-auto px-8 py-20">
     <div className="border-b border-neutral-900 pb-4">
         <motion.h2
         whileInView={{opacity:1,y:0}}
@@ -53,6 +54,7 @@ const Project = () => {
             </div>
         ))}</div>
     </div>
+    </section>
   )
 }
 
